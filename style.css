@@ -19,11 +19,9 @@ body{
     margin: 0 auto;
     font-family: Verdana;
     margin-bottom: 10px;
+    flex-wrap:wrap;
 }
 
-.sel li{
-    margin-right: 3px;
-}
 
 .sel a{
     display: block;
@@ -31,9 +29,11 @@ body{
     color: #fff;
     text-align: center;
     line-height: 3;
-    width: 131px;
-    border-radius: 5px;
     text-decoration: none;
+    margin-top: 5px;
+    margin-right: 3px;
+    width: 130px;
+    border-radius: 5px;
 }
 
 .sel a:hover{
